@@ -1,0 +1,11 @@
+# BK8 Casino Center - Robots.txt
+# https://bk8-casino-center.pages.dev
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://bk8-casino-center.pages.dev/sitemap.xml
+
+# Crawl-delay suggestion (optional)
+Crawl-delay: 1
