@@ -1,24 +1,24 @@
 /* BK8 Casino Center - Mobile-First CSS */
 /* Optimized for LCP < 2s */
-/* Theme: Purple/Magenta Luxury Casino */
+/* Theme: Black/Gold Luxury Casino */
 
 :root {
-  --primary: #1a0a20;
-  --primary-dark: #0f051a;
-  --primary-light: #2d1a3d;
-  --accent: #d437a0;
-  --accent-light: #f05ec4;
-  --accent-glow: rgba(212, 55, 160, 0.35);
+  --primary: #1a1306;
+  --primary-dark: #0f0a03;
+  --primary-light: #2b1f0a;
+  --accent: #d4af37;
+  --accent-light: #f2d06a;
+  --accent-glow: rgba(212, 175, 55, 0.35);
   --gold: #d4af37;
   --text: #ffffff;
-  --text-light: #c0a8c8;
-  --bg: #0f081a;
-  --bg-card: #1a0a20;
+  --text-light: #d9c88e;
+  --bg: #0b0905;
+  --bg-card: #171106;
   --white: #fff;
-  --border: #3d1a4d;
-  --shadow: 0 4px 20px rgba(212, 55, 160, 0.15);
-  --gradient: linear-gradient(135deg, #1a0a20 0%, #2d1a3d 50%, #0f051a 100%);
-  --casino-gradient: radial-gradient(ellipse at center top, #3d1a4d 0%, #1a0a20 50%, #0f051a 100%);
+  --border: #4a3a16;
+  --shadow: 0 4px 20px rgba(212, 175, 55, 0.15);
+  --gradient: linear-gradient(135deg, #171106 0%, #2b1f0a 50%, #0f0a03 100%);
+  --casino-gradient: radial-gradient(ellipse at center top, #4a3a16 0%, #1a1306 50%, #0f0a03 100%);
 }
 
 * {
@@ -187,7 +187,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23d437a0' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23d4af37' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   opacity: 0.5;
 }
 
@@ -319,7 +319,7 @@ body {
 /* Provider Badge */
 .provider-badge {
   display: inline-block;
-  background: linear-gradient(135deg, var(--accent) 0%, #a02878 100%);
+  background: linear-gradient(135deg, var(--accent) 0%, #8f6f17 100%);
   color: var(--white);
   padding: 4px 14px;
   border-radius: 20px;
@@ -332,7 +332,7 @@ body {
 .btn {
   display: inline-block;
   padding: 14px 28px;
-  background: linear-gradient(135deg, var(--accent) 0%, #a02878 100%);
+  background: linear-gradient(135deg, var(--accent) 0%, #8f6f17 100%);
   color: var(--white);
   text-decoration: none;
   border-radius: 30px;
@@ -432,7 +432,7 @@ body {
 
 /* Tip Box */
 .tip-box {
-  background: linear-gradient(135deg, rgba(212, 55, 160, 0.12) 0%, rgba(61, 26, 77, 0.25) 100%);
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.12) 0%, rgba(74, 58, 22, 0.25) 100%);
   border: 1px solid var(--border);
   padding: 16px 18px;
   margin: 20px 0;
@@ -520,7 +520,7 @@ body {
 
 /* Responsible Gambling Notice */
 .responsible-notice {
-  background: rgba(212, 55, 160, 0.1);
+  background: rgba(212, 175, 55, 0.1);
   border: 1px solid var(--accent);
   padding: 16px;
   border-radius: 12px;
